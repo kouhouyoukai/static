@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" viewBox="0 0 128 128" width="128" height="128">
+<title>確定申告</title>
+<defs>
+<style>
+path {
+  stroke-width: 8;
+  fill: none;
+  stroke: #0090ff;
+}
+path.fill {
+  fill: #0090ff;
+  stroke: none;
+}
+</style>
+</defs>
+<g>
+<path d="m3 9 h23" />
+<path class="fill" d="m9 9 c0 11 -4 23 -9 30 l5 7 c7 -9 12 -24 12 -37 z" />
+<path d="m10 30 v29" />
+<path d="m10 28 h11 v23 h-11" />
+<path d="m29 19 v-8 h29 v8" />
+<path d="m45 2 c-2 16 -14 27 -18 30" />
+<path d="m34 26 v36" />
+<path d="m51 17 c-1 4 -5 10 -5 10" />
+<path d="m34 26 h27" />
+<path d="m48 26 v30" />
+<path d="m34 36 h25" />
+<path d="m34 46 h25" />
+<path d="m34 56 h28" />
+</g>
+<g>
+<path d="m96 2 v10" />
+<path d="m72 24 v-12 h48 v12" />
+<path d="m79 25 h34" />
+<path d="m96 25 v30" />
+<path d="m96 39 h21" />
+<path d="m81 32 c-1 9 -1 14 -12 27" />
+<path class="fill" d="m84 39 -8 2 c2 10 9 20 30 20 h17 c1 -4 3 -8 3 -8 h-20 c -11 0 -20 -3 -22 -14 z" />
+</g>
+<g>
+<path d="m10 113 v-35 h44 v35" />
+<path d="m10 92 h44" />
+<path d="m10 106 h44" />
+<path d="m32 65 v61" />
+</g>
+<g>
+<path d="m82 67 c-1 4 -11 18 -11 18" />
+<path d="m76 77 h45" />
+<path d="m98 66 v26" />
+<path d="m68 92 h56" />
+<path d="m79 126 v-22 h36 v22" />
+<path d="m79 119 h36" />
+</g>
+<metadata>
+<rdf:RDF>
+<cc:Work>
+<dc:title>確定申告</dc:title>
+<dc:date>2024-02-19</dc:date>
+<dc:creator>
+<cc:Agent>
+<dc:title>こうほう (kouhouyoukai.github.io)</dc:title>
+</cc:Agent>
+</dc:creator>
+<cc:license rdf:resource="http://scripts.sil.org/OFL" />
+<dc:subject>
+<rdf:Bag>
+<rdf:li>kakuteishinkoku</rdf:li>
+</rdf:Bag>
+</dc:subject>
+<dc:description>This is the character "確定申告" (kakutei-shinkoku) based on Source Han Sans created by Adobe and Google.</dc:description>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+</svg>
