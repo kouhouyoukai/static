@@ -12,24 +12,35 @@
 <stop stop-color="#8c9" offset="0.3" />
 <stop stop-color="#bfc" offset="1" />
 </radialGradient>
+<filter id="blur" filterUnits="userSpaceOnUse">
+<feTurbulence type="fractalNoise" baseFrequency="0.5" seed="101">
+<animate attributeName="seed" from="101" to="200" dur="25s" repeatCount="indefinite" />
+</feTurbulence>
+<feDisplacementMap in="SourceGraphic" scale="0">
+<animate attributeName="scale" to="15" begin="10s" dur="60s" fill="freeze" />
+</feDisplacementMap>
+<feGaussianBlur stdDeviation="0">
+<animate attributeName="stdDeviation" to="1" begin="10s" dur="60s" fill="freeze" />
+</feGaussianBlur>
+</filter>
 </defs>
 <circle cx="50" cy="50" r="50" fill="#bfc" />
 <path d="m50 4 v60 m-30 -30 h60" fill="none" stroke="#9ea" stroke-width="16" />
 <g stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.3">
-<g fill="#779">
+<g fill="#779" filter="url(#blur)">
 <path d="m28 47 a25 23 0 0 1 44 0" />
 <path d="m40 38 c-3 -4 -11 -9 -13 -9 -1 2 -1 13 0 20" />
 <path d="m60 38 c3 -4 11 -9 13 -9 1 2 1 13 0 20" />
 <path d="m28 46 a25 22 0 1 0 44 0" />
 </g>
-<path d="m48 64 2 -2 2 2" fill="none" />
-<g fill="#fff">
+<path d="m48 64 2 -2 2 2" fill="none" filter="url(#blur)" />
+<g fill="#fff" filter="url(#blur)">
 <ellipse cx="40" cy="54" rx="5" ry="6" />
 <ellipse cx="60" cy="54" rx="5" ry="6" />
 </g>
 <path d="m8 70 h84 c-20 38 -68 38 -84 0 z" fill="url(#table-top)" stroke="none" />
 <path d="m7 70 h86" fill="none" stroke="url(#table-edge)" />
-<g fill="#ccd">
+<g fill="#ccd" filter="url(#blur)">
 <ellipse cx="27" cy="68" rx="6" ry="5" />
 <ellipse cx="73" cy="68" rx="6" ry="5" />
 </g>
