@@ -6,9 +6,14 @@
 <stop stop-color="#dcd" offset="0.75" />
 <stop stop-color="#edd" offset="1" />
 </linearGradient>
+<radialGradient id="shadow" gradientTransform="matrix(1,0,0,1.1,0,0.1)">
+<stop stop-color="#403" stop-opacity="0.6" offset="0" />
+<stop stop-color="#403" stop-opacity="0" offset="1" />
+</radialGradient>
 <path id="seg" d="m100 105 20 55 c12 33 -52 33 -40 0 z" />
 </defs>
 <rect width="330" height="330" fill="url(#back)" />
+<path d="m64 276 a140 24 0 1 1 202 0" fill="url(#shadow)" />
 <g stroke-linecap="round" stroke-linejoin="round">
 <g fill="#fb7" stroke="#d60" stroke-width="3">
 <path d="m65 150 h200 v125 h-200 z" stroke="#d60" stroke-width="3" />
